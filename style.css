@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.section-one-container {
+    display: flex;
+    background-color: lightblue;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.section-one-img {
+    width: 350px;
+    background-color: gray;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-one {
+    width: 80px;
+    height: 20px;
+}
+
+.section-two-container {
+    height: 250px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+.boxes-subtext {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    border: 2px solid blue;
+    height: 80px;
+    width: 80px;
+}
+
+.section-three-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    height: 250px;
+}
+
+.main-section-three {
+    width: 400px;
+}
+
+.section-four-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.call-to-bluebox {
+    background-color: lightblue;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-button {
+    height: 20px;
+    width: 80px;
+}
+
+.call-to-text {
+    width: 300px;
+}
