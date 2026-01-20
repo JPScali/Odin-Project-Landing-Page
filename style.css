@@ -6,27 +6,44 @@ body {
 
 .main-header-container {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
    }
+
+.small-header-container {
+    display:flex;
+    width: 855px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    height: 50px;
+    width: 1100px;
+    justify-content: space-between;
+}
 
 .header-logo {
     justify-content: flex-start;
     font-size: 24px;
     color: #f9faf8;
 }
-  
-.header-container {
+
+a {
+    text-decoration: none;
     display: flex;
-    align-items: center;
-    margin:  0 80px;
-    background-color: #1F2937;
-    height: 40px;
-    justify-content: space-between;
+    list-style-type: none;
+    gap: 18px;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header-links {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 18px;
     justify-content: flex-end;
     font-size: 18px;
     color: #e5e7eb;
@@ -36,6 +53,15 @@ body {
     display: flex;
     background-color: #1F2937;
     height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-small-container {
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    width: 1100px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -49,6 +75,7 @@ body {
 }
 
 .hero-title {
+    line-height: 0.9;
     margin-bottom: 1px;
     font-size: 48px;
     color: #f9faf8;
@@ -56,8 +83,8 @@ body {
 }
 
 .hero-text {
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 3px;
+    margin-bottom: 5px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -65,12 +92,12 @@ body {
 .section-one-img {
     width: 400px;
     background-color: gray;
-    height: 150px;
+    height: 190px;
     justify-content: center;
     align-items: center;
     margin-right: 80px;
     margin-left: 8px;
-    margin-top: 15px;
+    margin-top: 38px;
 }
 
 .button-one {
