@@ -126,11 +126,14 @@ h3 {
 .boxes-subtext {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 42px;
 }
 
 .square {
     width: 145px;
+    margin-top: 45px;
+    justify-content: center;
 }
 
 .box {
@@ -143,6 +146,7 @@ h3 {
 .subtext {
     text-wrap: wrap;
     font-size: 16px;
+    text-align: center;
 }
 .section-three-container {
     display: flex;
